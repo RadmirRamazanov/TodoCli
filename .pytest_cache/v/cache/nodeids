@@ -1,0 +1,20 @@
+[
+  "tests/test_cli.py::test_cli_add_and_list",
+  "tests/test_cli.py::test_cli_clear",
+  "tests/test_cli.py::test_cli_done_and_pending_filter",
+  "tests/test_cli.py::test_cli_done_unknown_id_returns_error",
+  "tests/test_cli.py::test_cli_list_empty_message",
+  "tests/test_cli.py::test_cli_remove",
+  "tests/test_storage.py::test_add_creates_task_with_incremental_id",
+  "tests/test_storage.py::test_add_empty_title_raises",
+  "tests/test_storage.py::test_clear_removes_all_tasks",
+  "tests/test_storage.py::test_complete_marks_task_done",
+  "tests/test_storage.py::test_complete_missing_id_raises",
+  "tests/test_storage.py::test_list_pending_filters_done",
+  "tests/test_storage.py::test_load_empty_when_file_missing",
+  "tests/test_storage.py::test_load_recovers_from_corrupted_file",
+  "tests/test_storage.py::test_remove_deletes_task",
+  "tests/test_storage.py::test_remove_missing_id_raises",
+  "tests/test_storage.py::test_storage_uses_env_var",
+  "tests/test_storage.py::test_task_roundtrip_dict"
+]
